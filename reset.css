@@ -1,0 +1,58 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlink decoration */
+a {
+  text-decoration: none;
+}
+
+/* Reset font styles */
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+
+/* Correct the line height in all browsers */
+textarea {
+  line-height: normal;
+}
+
+/* Remove spacing between table cells */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
